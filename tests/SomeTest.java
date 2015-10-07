@@ -4,11 +4,17 @@ import org.junit.Test;
 
 public class SomeTest extends Base {
 
-    @Test public void test1() {
+    @Test public void print_test() {
+        System.out.println("PRINT TEST");
         run();
     }
 
-    @Test public void test2() {
+    @Test public void sum_test() {
+        int a, b, sum;
+        a = 2;
+        b = 3;
+        sum = a + b;
+        System.out.println("TEST: a + b = " + sum);
         run();
     }
 
