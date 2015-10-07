@@ -13,6 +13,10 @@ class Base {
             throw new AssumptionViolatedException("skipping");
         }
     }
+}
 
-    System.out.println("PRINT TEST")
+class HelloWorldApp {
+    public static void main(String[] args) {
+        System.out.println("Hello World!"); // Display the string.
+    }
 }
