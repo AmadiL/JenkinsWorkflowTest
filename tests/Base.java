@@ -14,4 +14,5 @@ class Base {
         }
     }
 
+    System.out.println("PRINT TEST")
 }
