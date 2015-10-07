@@ -7,9 +7,9 @@ class Base {
 
     protected void run() {
         double r = Math.random();
-        if (r < 0.2) {
+        if (r < 0.6) {
             fail("oops");
-        } else if (r < 0.4) {
+        } else if (r < 0.8) {
             throw new AssumptionViolatedException("skipping");
         }
     }
